@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Button, Container, Image, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logo.png';
+import logo from '../../../image/logo.png';
 import ProfilePopper from '../ProfilePopper/ProfilePopper';
 
 const NavBar = () => {

@@ -1,7 +1,8 @@
 import firebase from "firebase/app";
 import "firebase/auth";
 import jwt_decode from "jwt-decode";
-import firebaseConfig from "./LoginConfig";
+import { firebaseConfig } from "./LoginConfig";
+
 
 export const initializeLoginFramework = () => {
     !firebase.apps.length && firebase.initializeApp(firebaseConfig);

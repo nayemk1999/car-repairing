@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import airbnb from '../../../images/airbnb.png';
-import google from '../../../images/google.png';
-import netflix from '../../../images/netflix.png';
-import slack from '../../../images/slack.png';
-import uber from '../../../images/uber.png';
+import airbnb from '../../../image/airbnb.png';
+import google from '../../../image/google.png';
+import netflix from '../../../image/netflix.png';
+import slack from '../../../image/slack.png';
+import uber from '../../../image/uber.png';
 
 const Partners = () => {
     return (

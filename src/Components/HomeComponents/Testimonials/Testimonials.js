@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import spinner from '../../../images/review-loder.gif';
+// import spinner from '../../../images/review-loder.gif';
 import Testimonial from '../Testimonial/Testimonial';
 import './Testimonials.css';
 
@@ -55,7 +55,7 @@ const Testimonials = () => {
                             }
                         </Swiper>
                         : <div className="text-center">
-                            <img  className='img-fluid' src={spinner} alt="..." />
+                            {/* <img  className='img-fluid' src={spinner} alt="..." /> */}
                         </div>
                     }
                 </div>

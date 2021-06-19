@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import news1 from '../../../images/news1.png';
-import news2 from '../../../images/news2.png';
-import news3 from '../../../images/news3.png';
+import news1 from '../../../image/news1.png';
+import news2 from '../../../image/news2.png';
+import news3 from '../../../image/news3.png';
 import SingleNews from '../SingleNews/SingleNews';
 import './LatestNews.css';
 

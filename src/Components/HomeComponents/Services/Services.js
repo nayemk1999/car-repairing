@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import toast from 'react-hot-toast';
-import spinner from '../../../images/service-loder.gif';
+// import spinner from '../../../images/service-loder.gif';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
 import './Services.css';
 
@@ -28,7 +28,7 @@ const Services = () => {
                             services.map(service => <ServiceDetail key={service._id} service={service} />)
                             : 
                             <div className="m-auto">
-                                <img  className='img-fluid' src={spinner} alt="..." />
+                                {/* <img  className='img-fluid' src={spinner} alt="..." /> */}
                             </div>
                     }
                 </Row>

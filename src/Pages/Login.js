@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Toast } from 'react-bootstrap';
 import LoginModal from '../Components/LoginAuth/LoginModal';
-import infoEmojis from '../images/info-emoji.svg';
+// import infoEmojis from '../images/info-emoji.svg';
 
 
 const Login = () => {
@@ -11,7 +11,7 @@ const Login = () => {
        <section>
             <Toast className="toast-left" onClose={() => setShow(false)} show={show} delay={10000} autohide>
                 <Toast.Header>
-                    <img src={infoEmojis} className="rounded mr-2" alt="Info" />
+                    {/* <img src={infoEmojis} className="rounded mr-2" alt="Info" /> */}
                     <strong className="mr-auto">Important Info</strong>
                 </Toast.Header>
                 <Toast.Body className="text-center">

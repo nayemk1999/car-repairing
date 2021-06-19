@@ -2,13 +2,13 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import work1 from '../../../images/work1.jpg';
-import work2 from '../../../images/work2.jpg';
-import work3 from '../../../images/work3.jpg';
-import work4 from '../../../images/work4.jpg';
-import work5 from '../../../images/work5.jpg';
-import work6 from '../../../images/work6.jpg';
-import work7 from '../../../images/work7.jpg';
+import work1 from '../../../image/work3.jpg';
+import work2 from '../../../image/work3.jpg';
+import work3 from '../../../image/work3.jpg';
+import work4 from '../../../image/work3.jpg';
+import work5 from '../../../image/work3.jpg';
+import work6 from '../../../image/work3.jpg';
+import work7 from '../../../image/work3.jpg';
 import './OurWork.css';
 
 const OurWark = () => {

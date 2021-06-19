@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import benefits from '../../../images/befefit.png';
+import benefits from '../../../image/befefit.png';
 import './Benefits.css';
 
 

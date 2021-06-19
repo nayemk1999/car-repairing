@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import about from '../../../images/about-section.png';
+import about from "../../../image/about-section.png";
 import './About.css';
 
 const About = () => {

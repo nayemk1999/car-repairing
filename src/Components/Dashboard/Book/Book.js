@@ -6,7 +6,7 @@ import { Container, Toast } from 'react-bootstrap';
 import toast from 'react-hot-toast';
 import Select from 'react-select';
 import { UserContext } from '../../../App';
-import infoEmojis from '../../../images/info-emoji.svg';
+// import infoEmojis from '../../../images/info-emoji.svg';
 import StripePayment from '../StripePayment/StripePayment';
 import './Book.css';
 
@@ -73,7 +73,7 @@ const Book = () => {
 
                     <Toast className="toast-right" style={{marginLeft:'auto'}} onClose={() => setShow(false)} show={show} delay={5000} autohide>
                         <Toast.Header>
-                            <img src={infoEmojis} className="rounded mr-2" alt="Info" />
+                            {/* <img src={infoEmojis} className="rounded mr-2" alt="Info" /> */}
                             <strong className="mr-auto">Important Info</strong>
                         </Toast.Header>
                         <Toast.Body className="text-center">

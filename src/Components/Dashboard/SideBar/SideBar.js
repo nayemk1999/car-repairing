@@ -5,7 +5,7 @@ import React, { useContext } from 'react';
 import { Image } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logo.png';
+import logo from '../../../image/logo.png';
 import './SideBar.css';
 import SideBarSpinner from './SideBarSpinner';
 
